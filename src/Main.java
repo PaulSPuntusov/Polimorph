@@ -5,10 +5,13 @@ public class Main {
         Point p3 = new Point(1,1);
         Point p4 = new Point(0,1);
         Point[] arr1 = {p1,p2,p3,p4};
+        Line l1 = new Line(p1,p2);
         PolyLine pl1 = new PolyLine(arr1);
         ClosedPolyLine cpl1 = new ClosedPolyLine(arr1);
         System.out.println(pl1.getLength());
         System.out.println(cpl1.getLength());
+        System.out.println(mainGetLength(l1));
+        System.out.println(mainGetLength(pl1));
         System.out.println(mainGetLength(cpl1));
 
     }

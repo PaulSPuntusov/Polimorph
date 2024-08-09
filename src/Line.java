@@ -8,10 +8,10 @@ public class Line implements Main.LengthAble {
 
     public double getLength() {
         double sum, len1, len2;
-        sum = getLength();
+        sum = 0;
         len1 = start.x - finish.x;
         len2 = start.y - finish.y;
-        sum += Math.sqrt(len1 * len1 + len2 * len2);
+        sum = Math.sqrt(len1 * len1 + len2 * len2);
 
         return sum;
     }
