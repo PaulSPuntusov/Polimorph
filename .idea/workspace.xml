@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Task2-ClosedPolyLine" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +39,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Task2-ClosedPolyLine",
+    "git-widget-placeholder": "Task3-Length-Measurement",
     "kotlin-language-version-configured": "true"
   },
   "keyToStringList": {
@@ -82,11 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1723147530555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Polimorph Task2 ClosedPolyLine">
+      <option name="closed" value="true" />
+      <created>1723149615410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723149615410</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Polimorph Task2 ClosedPolyLine">
+      <option name="closed" value="true" />
+      <created>1723149618863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723149618863</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Polimorph Task1 Point3D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task1 Point3D" />
+    <MESSAGE value="Polimorph Task2 ClosedPolyLine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task2 ClosedPolyLine" />
   </component>
 </project>

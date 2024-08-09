@@ -7,7 +7,17 @@ public class Main {
         Point[] arr1 = {p1,p2,p3,p4};
         PolyLine pl1 = new PolyLine(arr1);
         ClosedPolyLine cpl1 = new ClosedPolyLine(arr1);
-        System.out.println(pl1.length());
-        System.out.println(cpl1.closedLength());
+        System.out.println(pl1.getLength());
+        System.out.println(cpl1.getLength());
+        System.out.println(mainGetLength(cpl1));
+
+    }
+    public static double mainGetLength(LengthAble object){
+        double res = 0;
+        res = object.getLength();
+        return res;
+    }
+    interface LengthAble {
+        double getLength();
     }
 }
