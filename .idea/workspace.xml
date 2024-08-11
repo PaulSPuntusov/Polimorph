@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task5-Fraction-is-a-Number" />
+        <entry key="$PROJECT_DIR$" value="Task6-Summation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Task6-Summation",
+    "git-widget-placeholder": "Task7-Birds",
     "kotlin-language-version-configured": "true"
   },
   "keyToStringList": {
@@ -173,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723228627462</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Polimorph Task6 Summation">
+      <option name="closed" value="true" />
+      <created>1723232180624</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723232180624</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +191,7 @@
     <MESSAGE value="Polimorph Task4 StringLengthMeasurement" />
     <MESSAGE value="Polimorph Task5 Fraction заготовка" />
     <MESSAGE value="Polimorph Task5 Fraction готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task5 Fraction готово" />
+    <MESSAGE value="Polimorph Task6 Summation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task6 Summation" />
   </component>
 </project>
