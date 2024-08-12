@@ -1,6 +1,7 @@
-public class Point3D extends Point{
-    int x, y,z;
+public class Point3D extends Point {
+    int z;
     Point point;
+
     public Point3D(Point point, int z) {
         super(point.x, point.y);
         this.x = point.x;
@@ -11,8 +12,8 @@ public class Point3D extends Point{
     @Override
     public String toString() {
         return "Point3D{" +
-                "x=" + x +
-                ", y=" + y +
+                "x=" + point.x +
+                ", y=" + point.y +
                 ", z=" + z +
                 '}';
     }
