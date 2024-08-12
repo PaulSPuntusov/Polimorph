@@ -1,12 +1,16 @@
 public class Main {
     public static void main(String[] args) {
+
         Sparrow jack = new Sparrow("Jack");
-        jack.sing();
+
         Cuckoo ququ = new Cuckoo("Кукуша");
-        ququ.sing();
+
         Parrot gosha = new Parrot("Гоша", "abbracadabbra!");
-        gosha.sing();
+
+        letsSing(new Sparrow("d"));
         letsSing(jack);
+        letsSing(ququ);
+        letsSing(gosha);
     }
 
     public static double sum(Number... nums) {
