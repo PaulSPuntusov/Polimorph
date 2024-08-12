@@ -1,7 +1,10 @@
 public class Point3D extends Point{
     int x, y,z;
-    public Point3D(int x, int y, int z) {
-        super(x,y);
+    Point point;
+    public Point3D(Point point, int z) {
+        super(point.x, point.y);
+        this.x = point.x;
+        this.y = point.y;
         this.z = z;
     }
 
