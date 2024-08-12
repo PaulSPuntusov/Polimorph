@@ -6,6 +6,7 @@ public class Main {
         ququ.sing();
         Parrot gosha = new Parrot("Гоша", "abbracadabbra!");
         gosha.sing();
+        letsSing(jack);
     }
 
     public static double sum(Number... nums) {
@@ -21,8 +22,14 @@ public class Main {
         res = object.getLength();
         return res;
     }
+    public static void letsSing(SingAble object){
+        object.sing();
+    }
 
     interface LengthAble {
         double getLength();
+    }
+    interface SingAble{
+        void sing();
     }
 }
