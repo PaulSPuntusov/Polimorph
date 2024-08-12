@@ -16,6 +16,7 @@ public class Main {
         System.out.println(mainGetLength(cpl1));
         System.out.println(mainGetLength(t1));
 
+
     }
     public static double mainGetLength(LengthAble object){
         double res = 0;
@@ -24,5 +25,8 @@ public class Main {
     }
     interface LengthAble {
         double getLength();
+        default double getLength(String str){
+            return str.length();
+        }
     }
 }

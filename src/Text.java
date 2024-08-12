@@ -4,7 +4,9 @@ public class Text implements Main.LengthAble {
     public Text(String text) {
         this.text = text;
     }
-    public double getLength(){
-        return text.length();
+
+    @Override
+    public double getLength() {
+        return Main.LengthAble.super.getLength(text);
     }
 }
