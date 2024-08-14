@@ -1,4 +1,4 @@
-public class Text implements Main.LengthAble {
+public class Text implements LengthAble {
     String text;
 
     public Text(String text) {

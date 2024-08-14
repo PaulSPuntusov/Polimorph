@@ -1,4 +1,4 @@
-public class PolyLine implements Main.LengthAble {
+public class PolyLine implements LengthAble {
     Point[] points;
 
     public PolyLine(Point... points) {

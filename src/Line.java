@@ -1,4 +1,4 @@
-public class Line implements Main.LengthAble {
+public class Line implements LengthAble {
     Point start, finish;
 
     public Line(Point start, Point finish) {

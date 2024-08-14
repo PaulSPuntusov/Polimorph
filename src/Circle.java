@@ -1,10 +1,12 @@
-public class Circle extends Figure {
-    public Circle() {
-        super();
+public class Circle extends Figure implements AreaAble{
+
+
+    public Circle(Point point, Double length) {
+        super(point, length);
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return length*length*Math.PI;
     }
 }
