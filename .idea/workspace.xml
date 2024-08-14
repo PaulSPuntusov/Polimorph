@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task9-Figure" />
+        <entry key="$PROJECT_DIR$" value="Task10-SumAllAreas" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Task10-SumAllAreas",
+    "git-widget-placeholder": "Task11-Dot__Combination",
     "kotlin-language-version-configured": "true"
   },
   "keyToStringList": {
@@ -198,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723580831803</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Polimorph Task10 3 варианта решения">
+      <option name="closed" value="true" />
+      <created>1723662181581</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723662181581</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Polimorph Task10 3 варианта решения">
+      <option name="closed" value="true" />
+      <created>1723662186741</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723662186741</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +227,7 @@
     <MESSAGE value="Polimorph Task6 Summation" />
     <MESSAGE value="Polimorph Task8 доделал" />
     <MESSAGE value="Polimorph Task9 Figure есть версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task9 Figure есть версия" />
+    <MESSAGE value="Polimorph Task10 3 варианта решения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task10 3 варианта решения" />
   </component>
 </project>
