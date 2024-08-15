@@ -1,12 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-    Property x = new Property("Коорд.х", 7);
-    Property weight = new Property("Вес", 7.0);
-    Property color = new Property("Цвет", "желтый");
-    Property time = new Property("Время","10:15");
-    SuperDot sd1 = new SuperDot(x,weight,color,time);
-        System.out.println(sd1.toString());
+    Student st1 = new Student("Petya",new RuleChet());
+    Student st2 = new Student("Borya",x->x>=1&&x<=100000);
+    Student st3 = new Student("Kolya",x->x%2==0&&x>=1&&x<=100000);
+    st1.addGrade(4);
+        System.out.println(st1);
+        st3.addGrade(50000);
+        System.out.println(st3);
     }
+
     public static double sumAllAreas(Figure...figures){
         double sum = 0;
         for(Figure f:figures){
