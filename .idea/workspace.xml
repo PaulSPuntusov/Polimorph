@@ -56,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.courses.main" />
       <recent name="ru.courses.student" />
       <recent name="ru.courses.birds" />
       <recent name="ru.courses.geometry" />
@@ -293,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723911878631</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Polimorph Task12 - добавил бажог в попугае нашел и исправил">
+      <option name="closed" value="true" />
+      <created>1723912760498</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912760498</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,6 +320,7 @@
     <MESSAGE value="Polimorph Task12 - суперстудент" />
     <MESSAGE value="Polimorph Task12 - добавил package geometry" />
     <MESSAGE value="Polimorph Task12 - добавил package birds, student" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task12 - добавил package birds, student" />
+    <MESSAGE value="Polimorph Task12 - добавил бажог в попугае нашел и исправил" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polimorph Task12 - добавил бажог в попугае нашел и исправил" />
   </component>
 </project>

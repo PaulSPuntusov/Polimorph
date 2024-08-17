@@ -1,3 +1,5 @@
+package ru.courses.main;
+
 import ru.courses.birds.Parrot;
 import ru.courses.birds.SingAble;
 import ru.courses.geometry.*;
