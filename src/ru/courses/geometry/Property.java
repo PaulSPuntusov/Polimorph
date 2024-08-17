@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public class Property {
     String name;
     Object obj;
@@ -9,7 +11,7 @@ public class Property {
 
     @Override
     public String toString() {
-        return "Property{" +
+        return "ru.courses.geometry.Property{" +
                 "name='" + name + '\'' +
                 ", obj=" + obj +
                 '}';

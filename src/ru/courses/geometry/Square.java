@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public class Square extends Figure implements AreaAble{
 
     public Square(Point point, Double length) {

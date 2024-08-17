@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public abstract class Figure implements AreaAble {
     Point point;
     Double length;

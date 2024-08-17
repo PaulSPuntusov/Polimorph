@@ -1,3 +1,7 @@
+import ru.courses.geometry.AreaAble;
+import ru.courses.geometry.Figure;
+import ru.courses.geometry.LengthAble;
+
 public class Main {
     public static void main(String[] args) {
     Student st1 = new Student("Petya",new RuleChet());

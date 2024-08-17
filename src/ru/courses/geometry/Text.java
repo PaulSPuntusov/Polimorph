@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public class Text implements LengthAble {
     String text;
 

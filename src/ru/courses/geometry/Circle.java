@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public class Circle extends Figure implements AreaAble{
 
 

@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public class PolyLine implements LengthAble {
     Point[] points;
 

@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 import java.util.Arrays;
 
 public class SuperDot {
@@ -9,7 +11,7 @@ public class SuperDot {
 
     @Override
     public String toString() {
-        return "SuperDot{" +
+        return "ru.courses.geometry.SuperDot{" +
                 "prop=" + Arrays.toString(prop) +
                 '}';
     }

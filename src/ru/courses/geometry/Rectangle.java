@@ -1,4 +1,4 @@
-import com.sun.jdi.Value;
+package ru.courses.geometry;
 
 public class Rectangle extends Square implements AreaAble{
     private double width;

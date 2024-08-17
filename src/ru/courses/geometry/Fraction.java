@@ -1,3 +1,5 @@
+package ru.courses.geometry;
+
 public class Fraction extends Number {
     int num, denum;
 
