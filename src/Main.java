@@ -1,7 +1,6 @@
+import ru.courses.birds.Parrot;
 import ru.courses.birds.SingAble;
-import ru.courses.geometry.AreaAble;
-import ru.courses.geometry.Figure;
-import ru.courses.geometry.LengthAble;
+import ru.courses.geometry.*;
 import ru.courses.student.RuleChet;
 import ru.courses.student.Student;
 
@@ -14,6 +13,10 @@ public class Main {
         System.out.println(st1);
         st3.addGrade(50000);
         System.out.println(st3);
+        Circle c1 = new Circle(new Point(1,1),4.);
+        System.out.println(sumAllAreas(c1));
+        Parrot Pit = new Parrot("Pit","Pitgoodbird!!!");
+        letsSing(Pit);
     }
 
     public static double sumAllAreas(Figure...figures){
