@@ -1,26 +1,26 @@
 package ru.courses.main;
 
-import ru.courses.birds.Parrot;
 import ru.courses.birds.SingAble;
 import ru.courses.geometry.*;
-import ru.courses.student.RuleChet;
-import ru.courses.student.Student;
+
+import java.util.Scanner;
+
+import static java.lang.Integer.parseInt;
+import static java.lang.Math.pow;
 
 public class Main {
     public static void main(String[] args) {
-    Student st1 = new Student("Petya",new RuleChet());
-    Student st2 = new Student("Borya", x->x>=1&&x<=100000);
-    Student st3 = new Student("Kolya",x->x%2==0&&x>=1&&x<=100000);
-    st1.addGrade(4);
-        System.out.println(st1);
-        st3.addGrade(50000);
-        System.out.println(st3);
-        Circle c1 = new Circle(new Point(1,1),4.);
-        System.out.println(sumAllAreas(c1));
-        Parrot Pit = new Parrot("Pit","Pitgoodbird!!!");
-        letsSing(Pit);
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Вводим первое число");
+        String x = sc1.next();
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("Вводим второе число");
+        String y = sc2.next();
+        System.out.println(localPow(x,y));
     }
-
+    public static double localPow(String xString, String yString){
+        return pow((double) parseInt(xString),(double) parseInt(yString));
+    }
     public static double sumAllAreas(Figure...figures){
         double sum = 0;
         for(Figure f:figures){
