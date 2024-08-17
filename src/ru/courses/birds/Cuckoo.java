@@ -1,3 +1,5 @@
+package ru.courses.birds;
+
 public class Cuckoo extends Birds{
     String name;
 

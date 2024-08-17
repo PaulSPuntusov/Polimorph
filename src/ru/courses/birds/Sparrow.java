@@ -1,3 +1,5 @@
+package ru.courses.birds;
+
 public class Sparrow extends Birds{
 String name;
 
