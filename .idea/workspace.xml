@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task12-SuperStudent" />
+        <entry key="$PROJECT_DIR$" value="Packages-#3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Packages-#3",
+    "git-widget-placeholder": "Packages-#4",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pps_r/guessing_game/src/main.rs"
   },
@@ -340,16 +340,5 @@
     <MESSAGE value="Polimorph Task12 - добавил бажог в попугае нашел и исправил" />
     <MESSAGE value="Polimorph Packages 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Polimorph Packages 2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/courses/main/Main.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
