@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task12-SuperStudent" />
+        <entry key="$PROJECT_DIR$" value="Packages-#3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,11 +39,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Attempt_1.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Packages-#3",
+    "git-widget-placeholder": "Packages-#3__1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pps_r/guessing_game/src/main.rs"
   },
@@ -62,6 +63,26 @@
       <recent name="ru.courses.birds" />
       <recent name="ru.courses.geometry" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Attempt_1">
+    <configuration name="Attempt_1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.courses.main.Main" />
+      <module name="Polimorph" />
+      <option name="PROGRAM_PARAMETERS" value="5 6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="Polimorph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Attempt_1" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -340,16 +361,5 @@
     <MESSAGE value="Polimorph Task12 - добавил бажог в попугае нашел и исправил" />
     <MESSAGE value="Polimorph Packages 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Polimorph Packages 2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/courses/main/Main.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

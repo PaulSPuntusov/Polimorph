@@ -10,12 +10,8 @@ import static java.lang.Math.pow;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc1 = new Scanner(System.in);
-        System.out.println("Вводим первое число");
-        String x = sc1.next();
-        Scanner sc2 = new Scanner(System.in);
-        System.out.println("Вводим второе число");
-        String y = sc2.next();
+        String x = args[0];
+        String y = args[1];
         System.out.println(localPow(x,y));
     }
     public static double localPow(String xString, String yString){
